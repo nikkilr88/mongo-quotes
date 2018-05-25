@@ -1,0 +1,16 @@
+{
+  "name": "fcc-quote-api",
+  "version": "1.0.0",
+  "description": "Quote API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "set DB_URL=mongodb://localhost/quotes&&nodemon"
+  },
+  "author": "Nicole Sattler",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17"
+  }
+}
